@@ -20,6 +20,8 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import prisma from "./tech/prisma.svg";
+import postgre from "./tech/postgre.svg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -30,6 +32,9 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import logoipsum from "./logoipsum.svg";
+import nf from "./noteflow.png";
+import pw from "./pw.png";
+import vh from "./vh.png";
 
 export {
   logo,
@@ -61,4 +66,9 @@ export {
   jobit,
   tripguide,
   logoipsum,
+  prisma,
+  postgre,
+  nf,
+  pw,
+  vh,
 };

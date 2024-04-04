@@ -10,7 +10,7 @@ import { motion } from "framer-motion";
 import { styles } from "../style";
 import { SectionWrapper } from "../HOC";
 import { experiences } from "../constants";
-import { textVariant } from "../utils/motion";
+// import { textVariant } from "../utils/motion";
 
 const ExperienceCard = ({ experience }) => {
   return (
@@ -66,7 +66,7 @@ const Experience = () => {
     <>
       <motion.div>
         <p className={styles.sectionSubText}>What I have done so far</p>
-        <h2 className={styles.sectionHeadText}>Personal Project.</h2>
+        <h2 className={styles.sectionHeadText}>Tech Stack</h2>
       </motion.div>
 
       <div className="mt-20 flex flex-col">

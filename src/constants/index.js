@@ -23,6 +23,11 @@ import {
   jobit,
   tripguide,
   threejs,
+  prisma,
+  postgre,
+  nf,
+  pw,
+  vh,
 } from "../assets";
 
 export const navLinks = [
@@ -105,12 +110,12 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "postgre",
+    icon: postgre,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "prisma",
+    icon: prisma,
   },
 ];
 
@@ -198,12 +203,54 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "NoteFlow",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "NoteFlow is a powerful productivity and collaboration platform designed to elevate the way you organize, collaborate, and innovate. With a user-friendly interface and robust features, NoteFlow empowers individuals and teams to effortlessly capture, refine, and share their thoughts, notes, and tasks.",
     tags: [
       {
-        name: "react",
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "convex",
+        color: "#EE342F",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: nf,
+    source_code_link: "https://github.com/khoido2003/NoteFlow",
+  },
+  {
+    name: "VisualizeHb",
+    description:
+      "Visualize Hub is an collaborative visual workspace designed to inspire creativity, streamline teamwork, and elevate the way ideas are brought to life. Embrace a limitless canvas where imagination knows no bounds, breaking free from spatial constraints to foster a truly expansive and collaborative environment.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "liveblocks",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "convex",
+        color: "#EE342F",
+      },
+    ],
+    image: vh,
+    source_code_link: "https://github.com/khoido2003/VisualizeHub",
+  },
+  {
+    name: "PromptWorld",
+    description:
+      "An open-source AI prompting tool for modern wold to discover, create and share creative prompts. (using NextJS, Typesript ,Tailwind, Shadcn/ui, MongoDB, React Query, Next-AuthJS v4, Convex, Langchain)",
+    tags: [
+      {
+        name: "nextjs",
         color: "blue-text-gradient",
       },
       {
@@ -211,54 +258,12 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
-        color: "pink-text-gradient",
+        name: "langchain",
+        color: "#fff",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: pw,
+    source_code_link: "https://github.com/khoido2003/AI_Sharing_Prompts",
   },
 ];
 
