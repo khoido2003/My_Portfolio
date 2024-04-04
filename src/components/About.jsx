@@ -3,7 +3,7 @@ import { Tilt } from "react-tilt";
 import { styles } from "../style";
 import { services } from "../constants";
 
-import { fadeIn, textVariant } from "../utils/motion";
+import { fadeIn } from "../utils/motion";
 import { SectionWrapper } from "../HOC";
 
 // eslint-disable-next-line react-refresh/only-export-components
